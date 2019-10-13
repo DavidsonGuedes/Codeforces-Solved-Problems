@@ -1,4 +1,4 @@
-entrada = raw_input()
+entrada = input()
 
 #Subtrai do ord(a) para substituir na posição, ex b = 98 a = 97, logo o array será alfabeto = [0, 1, 0....0].
 alfabeto = [0]*26
@@ -11,6 +11,6 @@ for j in range(26):
 	if alfabeto[j] % 2 == 1:
 		contador += 1
 if contador == 0 or contador % 2 == 1:
-	print 'First'
+	print('First')
 else:
-	print 'Second'
+	print('Second')
